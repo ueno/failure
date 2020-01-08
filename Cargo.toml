@@ -26,5 +26,5 @@ maintenance = { status = "deprecated" }
 [features]
 default = ["std", "derive"]
 #small-error = ["std"]
-std = ["backtrace"]
+std = []
 derive = ["failure_derive"]
